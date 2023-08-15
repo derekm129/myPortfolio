@@ -12,7 +12,7 @@ main {
     flex-wrap: wrap;
 }
 
-#project {
+.project {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
