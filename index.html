@@ -10,45 +10,46 @@
 
 <body>
     <header>
-        <h1>Derek Modugno</h1>
-        <img id="profilePic" src="./assets/images/bender2.png" alt="profilePic" />
+        <div>
+            <h1>Derek Modugno</h1>
+            <nav>
+                <ul>
+                    <li><a href="#aboutMe">About Me<a/></li>
+                    <li><a href="#main">Projects</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </nav>
+        </div>  
 
-        <nav>
-            <ul>
-                <li><a href="#aboutMe">About Me<a/></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Info</a></li>
-            </ul>
-        </nav>
-    </header>   
+        <img id="profilePic" src="./assets/images/profilePic.png" alt="profilePic" />
 
-    <main>
         <section id="aboutMe">
             <h2>About Me</h2>
-            <p>Hello, I'm Derek Modugno. I live in Austin, Texas and I know how to use HTML, CSS, Javascript, and Git.</p>
+            <p>Hello, I'm Derek Modugno and I'm a computer programmer! I live in Austin, Texas and am learning how to use HTML, CSS, Javascript, and Git. I am currently enrolled in the UT Austin Coding Bootcamp.</p>
         </section>
 
-        <section id="work">
+    </header>   
+
+    <main id="main">
             <h2>Work</h2>
 
-            <div class="project">
-                <a href="https://derekm129.github.io/horiseon-refactor/#social-media-marketing"><img src="./assets/images/screenshot1.png" id="horisean" /><a/>
-            </div>
+            <section class="project"> 
+                <a href="https://derekm129.github.io/horiseon-refactor/#social-media-marketing"><img src="./assets/images/screenshot1.png" id="horisean" class="float-left" /><a/>
+                <h3>Horisean Refactor</h3>
+                <p>For this project I refactored code for a webpage in order to make it more accessible. I renamed and combined HTML and CSS elements in order to make the code more efficient.</p>
+                </section>
 
-            <div class="project">
-                <img src="./assets/images/coming-soon.jpg" id="coming-soon" />
-            </div>
+            <section class="project">
+                <a href="https://derekm129.github.io/prework-study-guide/"><img src="./assets/images/studyGuide.png" id="project-pictures" class="float-right"/></a>
+                <h3>Prework Study Guide</h3>
+                <p>I created this study guide so I can have easily referrable coding information for the UTA Coding Bootcamp.</p>
+            </section>
 
-            <div class="project">
-                <img src="./assets/images/coming-soon.jpg" id="coming-soon" />
-            </div>
+            <section class="project">
+                <img src="./assets/images/coming-soon.jpg" id="project-pictures" class="float-left">
+                <H3>Coming Soon</H3>
+            </section>
 
-            <div class="project">
-                <img src="./assets/images/coming-soon.jpg" id="coming-soon" />
-            </div>
-
-         
-        </section>
     </main>
 
     <footer>
