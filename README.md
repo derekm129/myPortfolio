@@ -17,6 +17,8 @@ This webpage shows my professional portfolio with links to my projects and infor
 
 ![My Portfolio](assets/images/portfolioPage.png)
 
+https://derekm129.github.io/myPortfolio/
+
 ## Credits
 
 N/A
