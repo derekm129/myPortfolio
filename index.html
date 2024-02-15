@@ -12,42 +12,44 @@
     <!-- Top of page -->
     <header>
         <div>
-            <h1>Derek Modugno</h1>
-            <nav>
-                <ul>
-                    <li><a href="#aboutMe">About Me<a/></li>
-                    <li><a href="#main">Projects</a></li>
-                    <li><a href="#contact">Contact Info</a></li>
-                </ul>
-            </nav>
+            <section id="welcome-section">
+                <h1>Derek Modugno</h1>
+                <nav  id="navbar">
+                    <ul>
+                        <li><a href="#aboutMe">About Me<a/></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Info</a></li>
+                    </ul>
+                </nav>
+            </section>
         </div>  
 
         <img id="profilePic" src="./assets/images/profilePic.png" alt="profilePic" />
 
         <section id="aboutMe">
             <h2>About Me</h2>
-            <p>Hello, I'm Derek Modugno and I'm a computer programmer! I live in Austin, Texas and am learning how to use HTML, CSS, Javascript, and Git. I am currently enrolled in the UT Austin Coding Bootcamp.</p>
+            <p>Hello, I'm Derek Modugno and I'm a computer programmer! I live in Moscow Mills, Missouri, and am skilled with HTML, CSS, Javascript, and Git.</p>
         </section>
 
     </header>   
 
     <!-- Projects -->
-    <main id="main">
+    <main id="projects">
             <h2>Work</h2>
 
-            <section class="project"> 
+            <section class="project-tile"> 
                 <a href="https://derekm129.github.io/horiseon-refactor/#social-media-marketing"><img src="./assets/images/screenshot1.png" id="horisean" class="float-left" /><a/>
                 <h3>Horisean Refactor</h3>
                 <p>For this project I refactored code for a webpage in order to make it more accessible. I renamed and combined HTML and CSS elements in order to make the code more efficient.</p>
                 </section>
 
-            <section class="project">
+            <section class="project-tile">
                 <a href="https://nameless-wave-14504-8d3cae4aaa8e.herokuapp.com/"><img src="./assets/images/plantScreenshot.png" id="project-pictures" class="float-right"/></a>
                 <h3>Plant Parenthood</h3>
                 <p>For this group project I worked mostly on the backend for a website that let's users search for plant information by entering the name of a plant in the search bar.</p>
             </section>
 
-            <section class="project">
+            <section class="project-tile">
                 <a href="https://lildano50.github.io/group-project-1/"> <img src="./assets/images/project1Page.png" id="project-pictures" class="float-left"></a>
                 <H3>What to Do</H3>
                 <p>This was my first group project I worked on at the UT Austin Coding Bootcamp. This website allows a user to enter a zip code in order to find random activities to do in their area. I helped make this app along with Daniel Park, Phuc Dinh, and Dasarathan T.</p>
@@ -63,8 +65,9 @@
                 <ul>
                     <li>derek.modugno@gmail.com</li>
                     <li>(765) 341-9913</li>
-                    <li>Pflugerville, TX</li>
+                    <li>Moscow Mills, MO</li>
                 </ul>
+                <a id="profile-link" target="_blank" href="https://github.com/derekm129">GitHub</a>
             </p>
         </section>
     </footer>
