@@ -31,8 +31,12 @@ header {
 /* Navbar */
 header nav {
     display: inline-block;
-    float: right;
-   
+    float: right;  
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
 }
 
 header nav ul li {
@@ -54,7 +58,7 @@ header nav ul li {
 }
 
 /* Project Sections */
-.project {
+.project-tile {
   height: 300px;  
   border: solid;
   padding: 10px;
@@ -110,6 +114,7 @@ header nav ul li {
     #project-pictures {
         height: 100px;
         width: 200px;
+        }
     }
-
 }
+
